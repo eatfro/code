@@ -4,6 +4,9 @@ try :
 except ValueError : 
     print("invaild input! Please enter a vaild number ")
 
+except ZeroDivisionError:
+    print("cannot divide a number by zero!")    
+
 else:    
 
 
